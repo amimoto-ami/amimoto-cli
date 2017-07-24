@@ -5,7 +5,7 @@
 ### Usage and Installation
 
 ##### 1. Download AMIMOTO-CLI
-`curl -O https://github.com/amimoto-ami/amimoto-cli/raw/master/amimoto`
+`w -O https://github.com/amimoto-ami/amimoto-cli/raw/master/amimoto`
 
 ##### 2. Make AMIMOTO-CLI executable
 `chmod +x amimoto`
