@@ -3,4 +3,9 @@
 #### Currently in dev. Do not use in production.
 
 #### Example
-`amimoto cache`
+
+##### Clear NGINX proxy cache
+`sudo amimoto cache --purge`
+
+##### Add virtual host example.com
+`sudo amimoto add example.com`
