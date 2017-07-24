@@ -5,13 +5,21 @@
 ### Usage and Installation
 
 ##### 1. Download AMIMOTO-CLI
-`wget https://github.com/amimoto-ami/go-amimoto-cli/raw/master/amimoto`
+`curl -O https://github.com/amimoto-ami/amimoto-cli/raw/master/amimoto`
 
 ##### 2. Make AMIMOTO-CLI executable
 `chmod +x amimoto`
 
 ##### 3. Move to a globally available location
 `sudo mv amimoto /usr/bin/`
+
+#### Or this one liner
+
+```
+wget https://github.com/amimoto-ami/amimoto-cli/raw/master/amimoto &&
+chmod +x amimoto &&
+sudo mv amimoto /usr/bin/
+```
 
 #### Examples
 
