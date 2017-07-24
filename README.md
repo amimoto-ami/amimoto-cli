@@ -4,14 +4,37 @@
 
 ### Usage and Installation
 
-- `wget https://github.com/amimoto-ami/go-amimoto-cli/raw/master/amimoto`
-- `chmod +x amimoto`
-- `sudo mv amimoto /usr/bin/`
+##### 1. Download AMIMOTO-CLI
+`wget https://github.com/amimoto-ami/go-amimoto-cli/raw/master/amimoto`
 
-#### Example
+##### 2. Make AMIMOTO-CLI executable
+`chmod +x amimoto`
+
+##### 3. Move to a globally available location
+`sudo mv amimoto /usr/bin/`
+
+#### Examples
 
 ##### Clear NGINX proxy cache
 `sudo amimoto cache --purge`
 
 ##### Add virtual host example.com
 `sudo amimoto add example.com`
+
+### Developing New Features
+
+## Requirements
+
+- The [Go](https://github.com/golang/go) Programming Language
+
+#### Git Clone
+
+`git clone git@github.com:amimoto-ami/amimoto-cli.git`
+
+or
+
+`git clone https://github.com/amimoto-ami/amimoto-cli.git`
+
+#### Build
+
+`go build -o amimoto`
