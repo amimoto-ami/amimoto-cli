@@ -16,7 +16,7 @@
 #### Or this one liner
 
 ```
-curl -s https://github.com/amimoto-ami/amimoto-cli/raw/master/install.sh | sudo /bin/bash
+curl -L -s https://github.com/amimoto-ami/amimoto-cli/raw/master/install.sh | sudo /bin/bash
 ```
 
 #### Examples
