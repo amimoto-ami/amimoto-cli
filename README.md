@@ -25,7 +25,16 @@ curl -L -s https://github.com/amimoto-ami/amimoto-cli/raw/master/install.sh | su
 `sudo amimoto cache --purge`
 
 ##### Add virtual host example.com
-`sudo amimoto add example.com`
+`sudo amimoto site --add example.com`
+
+##### Disable virtual host example.com
+`sudo amimoto site --disable example.com`
+
+##### Enable virtual host example.com
+`sudo amimoto site --enable example.com`
+
+##### Remove virtual host example.com
+`sudo amimoto site --remove example.com`
 
 ### Developing New Features
 
