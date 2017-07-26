@@ -15,9 +15,7 @@
 
 #### Or this one liner
 
-```
-curl -L -s https://github.com/amimoto-ami/amimoto-cli/raw/master/install.sh | sudo /bin/bash
-```
+`curl -L -s https://github.com/amimoto-ami/amimoto-cli/raw/master/install.sh | sudo /bin/bash`
 
 #### Examples
 
@@ -69,13 +67,14 @@ Build single binary for local os.
 $ go build amimoto.go
 ```
 
-Build for multi os(macox, linux, windows).
+Build for multi os(linux 386, amd64).
 ```
 $ go get github.com/mitchellh/gox
-$ gox -os="linux darwin windows" -arch="386 amd64" -output "build/amimoto-cli_{{.OS}}_{{.Arch}}"
+$ gox -os="linux" -arch="386 amd64" -output "build/amimoto-cli_{{.OS}}_{{.Arch}}"
 ```
 
 upload releases to github. (for maintaner information)
 ```
-$ ghr --replace -u amimoto-ami v0.1.1 build/
+$ go get github.com/tcnksm/ghr
+$ ghr --replace -u amimoto-ami v0.0.1 build/
 ```
