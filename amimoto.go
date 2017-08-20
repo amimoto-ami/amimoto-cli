@@ -106,7 +106,7 @@ func site() {
                 fmt.Println("Site disable: ", site)
                 disable(site)
             case "e":
-                fmt.Println("Site enableL: ", site)
+                fmt.Println("Site enable: ", site)
                 enable(site)
             case "r":
                 fmt.Println("Site remove: ", site)
