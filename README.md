@@ -1,6 +1,6 @@
 # AMIMOTO-CLI
 
-#### Currently in dev. Do not use in production.
+#### Beta release. Use at your own risk.
 
 ### Usage and Installation
 
